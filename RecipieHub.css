@@ -13,15 +13,15 @@ html {
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #333;
-  font-family: Arial;
+  background-color:transparent;
+  
 }
 
 /* Links inside the navbar */
 .navbar a {
   float: left;
   font-size: 16px;
-  color: white;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -38,7 +38,7 @@ html {
   font-size: 16px;
   border: none;
   outline: none;
-  color: white;
+  color: #088178;
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit; /* Important for vertical align on mobile phones */
@@ -48,7 +48,9 @@ html {
 /* Add a red background color to navbar links on hover */
 .navbar a:hover,
 .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: transparent;
+  transition: 0.3s ease;
+  border-radius: 2px;
 }
 
 /* Dropdown content (hidden by default) */
@@ -57,7 +59,9 @@ html {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.6);
+  border-radius: 2px;
+
   z-index: 1;
 }
 
@@ -69,6 +73,7 @@ html {
   text-decoration: none;
   display: block;
   text-align: left;
+  border-radius: 7px;
 }
 
 /* Add a grey background color to dropdown links on hover */
@@ -227,6 +232,7 @@ body {
   border: black;
   padding: 14px 80px 14px 65px;
 }
+
 #feature .fe-box {
   width: 200px;
   height: 200px;
@@ -238,7 +244,7 @@ body {
   margin: 15px 0;
   object-fit: cover;
   background-size: cover;
-  background-image: url(https://www.fr8.in/blog/wp-content/uploads/2023/07/Frame-1000001118-1.png);
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM6-plsV7mIsCXRQXNa0DU7tV_kd8dgEGCvaITeuDLag&s);
   background-position: center;
   margin-bottom: 10px;
 }
@@ -253,8 +259,356 @@ body {
 }
 #feature .fe-box h6 {
   padding: 9px 8px 6px 8px;
-  line-height: 1;
+  line-height: 3;
   border-radius: 4px;
   color: #088178;
   background-color: #fddde4;
+}
+#feature .div2 {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 5px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.06);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+  object-fit: cover;
+  background-size: cover;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0K4hz4vaFC1NkQGNCn3n6cnmGeKaqw1SdY1x9190TuA&s);
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+#feature .div3 {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 5px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.06);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+  object-fit: cover;
+  background-size: cover;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPXcMuHDHEq2Fo5kfRMp57jmREeNea7mu17956E7_b0w&s);
+  background-position: center;
+  margin-bottom: 10px;
+}
+
+#feature .div4 {
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  padding: 5px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.06);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  margin: 15px 0;
+  object-fit: cover;
+  background-size: cover;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSrqq_wPMemM3TbdyUC8dnKCWOplNDkfUggcHe_0fJzKw&s);
+  background-position: center;
+  margin-bottom: 10px;
+}
+#feature .div2 h6 {
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #fceb7f;
+}
+#feature .div3 h6 {
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #ffffff;
+}
+#feature .div4 h6 {
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #6d9de0;
+}
+#product1 .pro-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+  flex-wrap: wrap;
+}
+
+#product1 {
+  text-align: center;
+}
+#product1 .pro {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 1px solid #cce7d0;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+  position: relative;
+}
+#product1 .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+#product1 .pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+#product1 .pro .des {
+  text-align: start;
+  padding: 10px 0;
+}
+#product1 .pro .des span {
+  color: #606063;
+  font-size: 12px;
+}
+#product1 .pro .des h5 {
+  padding-top: 7px;
+  color: #1a1a1a;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+#product1 .pro .des i {
+  font-size: 12px;
+  color: rgb(243, 181, 25);
+}
+#product1 .pro .des h4 {
+  padding-top: 7px;
+  font-size: 18px;
+  font-weight: 800;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #088178;
+}
+#product1 .pro .cart {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 40px;
+  background-color: #e8f6ea;
+  font-weight: 500;
+  color: #088178;
+  border: 1px solid #cce7d0;
+  position: absolute;
+  bottom: 20px;
+  right: 10px;
+}
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url(https://t4.ftcdn.net/jpg/04/92/06/53/360_F_492065380_eSlHdkdNBy6ArNkk5gV0Lme1qhvTosSI.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40vh;
+  background-position: center;
+}
+#banner h4 {
+  color: #fff;
+  font-size: 16px;
+}
+#banner h2 {
+  color: #fff;
+  font-size: 30px;
+  padding: 10px 0;
+}
+#banner h2 span {
+  color: #ef3636;
+}
+#banner button:hover {
+  background: #088178;
+  color: #fff;
+}
+#sm-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#sm-banner .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  text-align: center;
+  background-image: url(https://media.istockphoto.com/id/1143693101/photo/indian-food-and-indian-cuisine-dishes-copy-space.jpg?s=612x612&w=0&k=20&c=zaRDPUwB1g4sKl9Y8crZtJCiV8a3ePeDiwIUnCI2jRU=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 580px;
+  height: 50vh;
+  background-position: center;
+}
+#sm-banner .banner-box2 {
+  background-image: url(https://images.pexels.com/photos/7245485/pexels-photo-7245485.jpeg?auto=compress&cs=tinysrgb&w=600);
+}
+#sm-banner h4 {
+  color: black;
+  font-size: 20px;
+  font-weight: 300;
+}
+#sm-banner h2 {
+  color: black;
+  font-size: 28px;
+  font-weight: 800;
+}
+#sm-banner span {
+  color: black;
+  font-size: 14px;
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+#sm-banner .banner-box:hover button {
+  background: #088178;
+  border: 1px #088178;
+}
+
+#banner3 .banner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  text-align: center;
+  background-image: url(https://img.freepik.com/free-photo/young-fashion-woman-with-shopping-bags-through-torn-paper-hole-wall_140725-105087.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697932800&semt=ais);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-width: 30%;
+  height: 30vh;
+  background-position: center;
+  margin-bottom: 20px;
+}
+#banner3 .banner-box2 {
+  background-image: url(https://img.freepik.com/free-photo/handsome-young-man-with-beard-smiling-showing-shopping-bag-buying-something-store-standing_1258-164200.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698019200&semt=ais);
+}
+#banner3 .banner-box3 {
+  background-image: url(https://img.freepik.com/free-photo/excited-young-man-carry-colorful-shopping-bags-smiling-happy-shopper-buying-sale-standing_1258-164603.jpg?size=338&ext=jpg&ga=GA1.1.386372595.1698019200&semt=ais);
+}
+#banner3 .banner-box h2 {
+  color: black;
+  font-weight: 900;
+  font-size: 22px;
+}
+
+#banner3 .banner-box h3 {
+  color: #ec544e;
+  font-weight: 800;
+  font-size: 22px;
+}
+#banner3 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
+#newsletter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url();
+  background-repeat: no-repeat;
+  background-size: cover;
+  backgrund-position: 20% 30%;
+  background-color: #041e42;
+}
+#newsletter h4 {
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+#newsletter p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #808ea0;
+}
+#newsletter p span {
+  color: #ffbd27;
+}
+#newsletter input {
+  height: 3.125rem;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#newsletter button {
+  background-color: #088178;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+#newsletter .form {
+  display: flex;
+  width: 40%;
+}
+footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+footer .col {
+  display: flex;
+
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+logo {
+  margin-bottom: 30px;
+}
+footer h4 {
+  font-size: 14px;
+  padding-bottom: 20px;
+}
+footer p {
+  font-size: 13px;
+  text-decoration: none;
+  margin: 0 0 8px 0;
+  color: #222;
+  margin-bottom: 10px;
+}
+footer .install {
+  height: 10px;
+  width: 10px;
+}
+footer .follow {
+  margin-top: 20px;
+}
+footer a {
+  font-size: 13px;
+  text-decoration: none;
+  color: #222;
+  margin-bottom: 10px;
+}
+footer.follow i {
+  color: #465b52;
+  padding-right: 4px;
+  cursor: pointer;
+}
+footer .install .row {
+  border: 1px solid #088178;
+  border-radius: 6px;
+}
+footer .follow i:hover,
+footer a:hover {
+  color: #088178;
+}
+footer .copyright {
+  width: 100%;
+  text-align: center;
 }
